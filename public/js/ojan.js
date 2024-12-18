@@ -1,6 +1,6 @@
 function hilihgen(){
   Swal.fire({
-    title: 'Masukan Text',
+    title: 'Masukkan text nya dulu!',
     input: 'text',
     inputAttributes: {
       autocapitalize: 'off'
@@ -34,7 +34,7 @@ function hilihgen(){
 
 function githubstalk(){
   Swal.fire({
-    title: 'Masukan username',
+    title: 'Masukkan username nya dulu',
     input: 'text',
     inputAttributes: {
       autocapitalize: 'off'
@@ -118,5 +118,5 @@ function jadwal(){
 }
 
 function loginfirst(){
-  swal.fire("LOGIN DULU BANG", "", "error");
+  swal.fire("LOGIN DULU KOCAK", "", "error");
 }
