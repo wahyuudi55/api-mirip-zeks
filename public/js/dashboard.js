@@ -42,10 +42,10 @@ function getvisitor(){
 
 // User Agent
 txt = "";
-txt += "<p><b>Version Browser</b>: <br>" + navigator.appVersion + "</p>";
-txt += "<p><b>Language</b>: " + navigator.language + "</p>";
+txt += "<p><b>Versi Browser</b>: <br>" + navigator.appVersion + "</p>";
+txt += "<p><b>Bahasa</b>: " + navigator.language + "</p>";
 txt += "<p><b>Browser</b>: " + navigator.appCodeName + "</p>";
-txt += "<p><b>Vendor</b>: " + navigator.vendor + "</p>";
+txt += "<p><b>Penjual</b>: " + navigator.vendor + "</p>";
 txt += "<p><b>Browser Online</b>: " + navigator.onLine + "</p>";
 txt += "<p><b>Cookies</b>: " + navigator.cookieEnabled + "</p>";
 txt += "<p><b>Platform</b>: " + navigator.platform + "</p>";
@@ -72,13 +72,13 @@ Sayings = "";
 			var now = new Date();
 			var hours = now.getHours();
 			if (hours >= 17 || hours <= 2){
-			Sayings += "<span class='text-light'>Selamat malam 🌚</span>"
+			Sayings += "<span class='text-light'>Selamat malam</span>"
 			} else if (hours >= 3 && hours <= 10){
-			Sayings += "<span class='text-info'>Selamat pagi 🌝</span>"
+			Sayings += "<span class='text-info'>Selamat pagi</span>"
 			} else if (hours >= 11 && hours <= 14){
-			Sayings += "<span class='text-warning'>Selamat Siang 🌞</span>"
+			Sayings += "<span class='text-warning'>Selamat Siang</span>"
 			} else if (hours >= 13 && hours <= 16){
-			Sayings += "<span class='text-success'>Selamat Sore 🌜</span>"
+			Sayings += "<span class='text-success'>Selamat Sore</span>"
 			}
 document.getElementById("Ucapan").innerHTML = Sayings;
 
@@ -136,7 +136,7 @@ var batteryLevel = document.getElementById("batteryLevel");
 			};
 			});
 
-	const Image = ["./../images/logo1.png","./../images/logo2.png","./../images/logo3.jpeg"]
+	const Image = ["./../images/logo1.png","./../images/logo3.jpg"]
 	const randImage = Image[Math.floor(Math.random() * Image.length)];
 
 (function($) {
